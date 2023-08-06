@@ -1,0 +1,16 @@
+@import "reset.css";
+@import "lenis.css";
+@import "fonts.css";
+
+/* not necessary with the nuxt module */
+/* @import "tailwind.css" */
+
+* {
+  font-family: var(--font-primary), sans-serif;
+  color: rgb(var(--color-neutral-900));
+}
+
+#__nuxt{
+  min-height: 100svh;
+  background-color: rgb(var(--color-background));
+}
